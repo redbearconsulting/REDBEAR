@@ -4,6 +4,7 @@ public with sharing class AccountHandler {
 		if(param == null || param == ''){
 			return null;
 		}
+		//add comment
 		try{
 			acc = new Account(Name=param);
 			insert acc;
