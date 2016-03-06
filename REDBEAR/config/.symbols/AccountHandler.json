@@ -1,0 +1,73 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2400000CzPojAAF",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2400000CzPojAAF",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 2
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "insertNewAccount",
+            "parameters": [
+                {
+                    "name": "param",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Account",
+            "type": null
+        }
+    ],
+    "name": "AccountHandler",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "AccountHandler",
+        "references": [],
+        "type": "AccountHandler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 2
+            },
+            "modifiers": [],
+            "name": "param",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        }
+    ]
+}

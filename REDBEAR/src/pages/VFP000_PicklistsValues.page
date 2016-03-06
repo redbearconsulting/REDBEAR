@@ -1,0 +1,62 @@
+<apex:page id="pg" standardStylesheets="false" controller="VFC000_PicklistsValues" contenttype="application/vnd.ms-excel#Picklists.xls" showheader="false" cache="true">
+    <apex:outputText value="{!xmlheader}"/>
+    <Workbook 
+        xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+        xmlns:o="urn:schemas-microsoft-com:office:office"
+        xmlns:x="urn:schemas-microsoft-com:office:excel"
+        xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+        xmlns:html="http://www.w3.org/TR/REC-html40">
+
+    <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+        <Author></Author>
+        <LastAuthor></LastAuthor>
+        <Company>Easyfront</Company>
+        <Version>11.8036</Version>
+    </DocumentProperties>
+    <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+        <WindowHeight>6795</WindowHeight>
+        <WindowWidth>8460</WindowWidth>
+        <WindowTopX>120</WindowTopX>
+        <WindowTopY>15</WindowTopY>
+        <ProtectStructure>False</ProtectStructure>
+        <ProtectWindows>False</ProtectWindows>
+    </ExcelWorkbook>
+  
+    <Styles>
+        <Style ss:ID="Default" ss:Name="Normal">
+            <Alignment ss:Vertical="Bottom" />
+            <Borders />
+            <Font />
+            <Interior />
+            <NumberFormat />
+            <Protection />
+        </Style>
+    </Styles>
+        
+    <apex:repeat value="{!objectList}" var="object">
+        <Worksheet ss:Name="{!object.label}">
+            <Table>
+                <Row>
+                    <Cell><Data ss:Type="String"><apex:outputText value="Field Name"/></Data></Cell>
+                    <Cell><Data ss:Type="String"><apex:outputText value="Label"/></Data></Cell>
+                    <Cell><Data ss:Type="String"><apex:outputText value="Value"/></Data></Cell>
+                </Row>
+                <apex:repeat value="{!object.pickListValuesMap}" var="fieldName">
+                    <apex:repeat value="{!object.pickListValuesMap[fieldName]}" var="pickListEntry">
+                        <Row>
+                            <Cell><Data ss:Type="String"><apex:outputText value="{!fieldName}"/></Data></Cell>
+                            <Cell><Data ss:Type="String"><apex:outputText value="{!pickListEntry.Label}"/></Data></Cell>
+                            <Cell><Data ss:Type="String"><apex:outputText value="{!pickListEntry.Value}"/></Data></Cell>
+                        </Row>
+                    </apex:repeat>
+                </apex:repeat>
+            </Table>
+            <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+                <ProtectObjects>False</ProtectObjects>
+                <ProtectScenarios>False</ProtectScenarios>
+            </WorksheetOptions>  
+        </Worksheet>
+    </apex:repeat> 
+  </Workbook>
+  <apex:outputText value="{!endfile}"/>
+</apex:page>

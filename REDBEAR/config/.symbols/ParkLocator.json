@@ -1,0 +1,84 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2400000CzHYlAAN",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2400000CzHYlAAN",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "country",
+            "parameters": [
+                {
+                    "name": "country",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "ParkLocator",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ParkLocator",
+        "references": [],
+        "type": "ParkLocator"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "country",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "ParksImplPort"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "parks",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

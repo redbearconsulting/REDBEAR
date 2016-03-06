@@ -1,0 +1,377 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 15
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "VFC000_PicklistsValues",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p2400000CzJqdAAF",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 59
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ObjectClass",
+                    "parameters": [
+                        {
+                            "name": "lab",
+                            "type": "String"
+                        },
+                        {
+                            "name": "api",
+                            "type": "String"
+                        },
+                        {
+                            "name": "fieldMap",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "ObjectClass",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 53
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "hasPicklists",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 54
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "label",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 55
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "apiName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 42,
+                        "line": 56
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "fields",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 56,
+                        "line": 57
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "pickListValuesMap",
+                    "references": [],
+                    "type": "Map"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 52
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ObjectClass",
+                "references": [],
+                "type": "ObjectClass"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 59
+                    },
+                    "modifiers": [],
+                    "name": "lab",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 59
+                    },
+                    "modifiers": [],
+                    "name": "api",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 86,
+                        "line": 59
+                    },
+                    "modifiers": [],
+                    "name": "fieldMap",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 74
+                    },
+                    "modifiers": [],
+                    "name": "field",
+                    "references": [],
+                    "type": "SObjectField"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p2400000CzJqdAAF",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 30
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "objectList",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "VFC000_PicklistsValues",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "usefulStandardObjects",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "uselessCustomObjects",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "objectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "objectNames",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 7
+            },
+            "modifiers": [
+                "public",
+                "final"
+            ],
+            "name": "numberOfObjects",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 9
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "isIterationDone",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 11
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "xmlheader",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 12
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "endfile",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "VFC000_PicklistsValues",
+        "references": [],
+        "type": "VFC000_PicklistsValues"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 21
+            },
+            "modifiers": [],
+            "name": "allObjects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 31
+            },
+            "modifiers": [],
+            "name": "oneObject",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "ObjectClass"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "ObjectClass"
+        }
+    ]
+}

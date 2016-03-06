@@ -1,0 +1,88 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2400000CzSd3AAF",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2400000CzSd3AAF",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 2
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "searchForContacts",
+            "parameters": [
+                {
+                    "name": "lastName",
+                    "type": "String"
+                },
+                {
+                    "name": "postalCode",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "ContactSearch",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ContactSearch",
+        "references": [],
+        "type": "ContactSearch"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 2
+            },
+            "modifiers": [],
+            "name": "lastName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 2
+            },
+            "modifiers": [],
+            "name": "postalCode",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "listContact",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "username": "hakim.irbah@redbear.com", 
+    "environment": "developer", 
+    "project_name": "REDBEAR", 
+    "workspace": "/Users/abdelhakimirbah/Documents/02_SFDC", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "2BWU4LL62HZVC1ZJWT5FL73K7VDTLC6K", 
+    "metadata_container": "1dc24000000XOg3AAG", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}
